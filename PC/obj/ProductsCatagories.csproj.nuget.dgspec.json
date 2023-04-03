@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mrand\\C#Dev\\Assignments\\ProductsCatagories\\ProductsCatagories.csproj": {}
+    "C:\\Users\\mrand\\PersonalProjects\\PC\\ProductsCatagories.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mrand\\C#Dev\\Assignments\\ProductsCatagories\\ProductsCatagories.csproj": {
+    "C:\\Users\\mrand\\PersonalProjects\\PC\\ProductsCatagories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mrand\\C#Dev\\Assignments\\ProductsCatagories\\ProductsCatagories.csproj",
+        "projectUniqueName": "C:\\Users\\mrand\\PersonalProjects\\PC\\ProductsCatagories.csproj",
         "projectName": "ProductsCatagories",
-        "projectPath": "C:\\Users\\mrand\\C#Dev\\Assignments\\ProductsCatagories\\ProductsCatagories.csproj",
+        "projectPath": "C:\\Users\\mrand\\PersonalProjects\\PC\\ProductsCatagories.csproj",
         "packagesPath": "C:\\Users\\mrand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mrand\\C#Dev\\Assignments\\ProductsCatagories\\obj\\",
+        "outputPath": "C:\\Users\\mrand\\PersonalProjects\\PC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tjpr7XPYr8RRG59B3nI8Z2j2MEtbZ/trraAtNQvlTNx0FFAhod+zdyhdlxmWe8KQVI/ArIKqw67Va14GVOYuiA==",
+  "dgSpecHash": "USkvgERgXG4UMkoF5aMhTQLqNnwfTa5VIZKG2iHBFcBpFLGuJjWfqGHtKRPwVHZFA90fMXDR/RAlNRJkCqRS0g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mrand\\C#Dev\\Assignments\\ProductsCatagories\\ProductsCatagories.csproj",
+  "projectFilePath": "C:\\Users\\mrand\\PersonalProjects\\PC\\ProductsCatagories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrand\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mrand\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.3\\microsoft.entityframeworkcore.6.0.3.nupkg.sha512",
