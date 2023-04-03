@@ -8,49 +8,49 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProductsCatagories
 build_property.RootNamespace = ProductsCatagories
-build_property.ProjectDir = C:\Users\mrand\PersonalProjects\PC\
+build_property.ProjectDir = c:\Users\mrand\PersonalProjects\PC\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\mrand\PersonalProjects\PC
+build_property.MSBuildProjectDirectory = c:\Users\mrand\PersonalProjects\PC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/mrand/PersonalProjects/PC/Views/Category/AllCategories.cshtml]
+[c:/Users/mrand/PersonalProjects/PC/Views/Category/AllCategories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWxsQ2F0ZWdvcmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrand/PersonalProjects/PC/Views/Category/ViewCategory.cshtml]
+[c:/Users/mrand/PersonalProjects/PC/Views/Category/ViewCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVmlld0NhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrand/PersonalProjects/PC/Views/Home/Index.cshtml]
+[c:/Users/mrand/PersonalProjects/PC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrand/PersonalProjects/PC/Views/Home/Privacy.cshtml]
+[c:/Users/mrand/PersonalProjects/PC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrand/PersonalProjects/PC/Views/Product/ViewProduct.cshtml]
+[c:/Users/mrand/PersonalProjects/PC/Views/Product/ViewProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxWaWV3UHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrand/PersonalProjects/PC/Views/Shared/Error.cshtml]
+[c:/Users/mrand/PersonalProjects/PC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrand/PersonalProjects/PC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/mrand/PersonalProjects/PC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrand/PersonalProjects/PC/Views/_ViewImports.cshtml]
+[c:/Users/mrand/PersonalProjects/PC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrand/PersonalProjects/PC/Views/_ViewStart.cshtml]
+[c:/Users/mrand/PersonalProjects/PC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrand/PersonalProjects/PC/Views/Shared/_Layout.cshtml]
+[c:/Users/mrand/PersonalProjects/PC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-lt5d57tjta
