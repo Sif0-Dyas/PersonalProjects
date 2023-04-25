@@ -32,44 +32,37 @@ const Write = () => {
     }
 
     return (
-        <div>
+
+        <div className="d-flex justify-content-center align-items-center vh-100">
+        <div className="card">
             {errors.map((err, index) => <p key={index}>{err}</p>)}
-            <div><h1>Write a note</h1></div>
+            <div><h1 className="title">Write a note! 😃</h1></div>
 
 
-            <div>
-                <button className="btn btn-outline-primary" ><Link to='/'>Go back home</Link></button>
-
-            </div>
-
-
-            <div>
-
+            <div className="form">
                 <form onSubmit={handleSubmit}>
-
-                <div className="myForm">
-
-                    <div><label>Title</label>
-                    <input type="text" onChange={(e) => setTitle(e.target.value)} /></div>
-
-                    <div>
-                    <label>Body</label>
-                    <input type="text" onChange={(e) => setBody(e.target.value)} />
+                    <div className="group">
+                        <input type="text" className="form-control" placeholder=" " onChange={(e) => setTitle(e.target.value)} />
+                        <label>Title</label>
                     </div>
-
+                    <div className="group">
+                        <textarea className="form-control" placeholder=" " onChange={(e) => setBody(e.target.value)}></textarea>
+                        <label>Body</label>
                     </div>
-
-                    <div>
-                    <button type="submit" className="btn btn-outline-success">Write note</button>
+                    <div className="group">
+                        <button type="submit" className="btn btn-outline-success">Write note</button>
                     </div>
-
+            <div className="group">
+            <Link className="neu-link" to="/">Go back home</Link>
+            </div>
                 </form>
             </div>
-
-
-
         </div>
+    </div>
     )
 }
 
 export default Write
+
+
+

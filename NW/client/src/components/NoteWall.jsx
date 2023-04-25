@@ -8,7 +8,7 @@ const NoteWall = () => {
 
 
     const [noteList, setNoteList] = useState([])
-    const [loaded, setLoaded] = useState(false)
+    const [loaded] = useState(false)
 
     useEffect(() => {
         axios.get('http://localhost:8000/api/notes')
@@ -35,38 +35,50 @@ const NoteWall = () => {
 
 
     return (
-        <div>
+        <div className="note-wall-container">
+            <div className="custom-container">
+                <div className="header-container">
+                    <div>
+                        <h1 className="title">Anonynote</h1>
+                        <h4 className="leave-note-text">Leave an anonymous note!</h4>
+                    </div>
 
-            <div>
-                <h1>Note Wall</h1>
-                <p>Leave a note!</p>
+                    <div className="write-note-btn-container">
+
+                        <Link className="neu-link" to={'/write'}>Write Note</Link>
+
+                    </div>
+                </div>
+
+
+                <div className="notes-container">
+                    {
+                        noteList.map((note, i) => {
+                            const randomColor = `hsl(${Math.random() * 360}, 100%, 90%)`;
+
+                            return (
+                                <div key={i} className="note" style={{ backgroundColor: randomColor }}>
+                                    <div className="note-content">
+                                        <h1>{note.title}</h1>
+                                        <p>{note.body}</p>
+                                        <div className="group">
+
+                                            <Link className="neu-link" to={`/edit/${note._id}`}>Edit</Link>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            )
+                        })
+                    }
+                </div>
+
+                <div className="random-note-btn-container">
+
+                    <Link className="neu-link" to={`/random`}>Random Note</Link>
+
+                </div>
             </div>
-
-            <div>
-                <button className="btn btn-outline-info"   ><Link to={'/write'}>Write Note</Link></button>
-            </div>
-
-            <hr />
-
-            <div className="Wall"  >
-                {
-                    noteList.map((note, i) => {
-                        return (
-                            <div key={i}>
-                                <h1>{note.title}</h1>
-                                <p>{note.body}</p>
-                                <p>{note.date}</p>
-                                <button className="btn btn-outline-warning" ><Link to={`/edit/${note._id}`}>Edit</Link></button>
-                            </div>
-                        )
-                    })
-                }
-            </div>
-
-            <button className="btn btn-outline-dark">
-                <Link to={`/random`} >Random Note</Link>
-            </button>
-
         </div>
     )
 }

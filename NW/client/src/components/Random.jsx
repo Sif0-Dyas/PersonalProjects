@@ -8,7 +8,7 @@ import axios from 'axios'
 const Random = () => {
 
     const [noteList, setNoteList] = useState([])
-    const [loaded, setLoaded] = useState(false)
+    const [loaded] = useState(false)
 
 
     useEffect(() => {
@@ -23,28 +23,42 @@ const Random = () => {
 
 
     return (
-        <div>
+        <div className="note-wall-container">
+            <div className="custom-container">
+                <div className="header-container">
+                    <div>
+                        <h1 className="title">Anonynote</h1>
+                    </div>
 
-<div>
-                <h1>Note Wall</h1>
+                    <div className="write-note-btn-container">
+
+                        <Link className="neu-link" to="/">Go back home</Link>
+
+                    </div>
+                </div>
+
+                <div className="notes-container">
+                    {
+                        noteList.map((note, i) => {
+                            const randomColor = `hsl(${Math.random() * 360}, 100%, 90%)`;
+
+                            return (
+                                <div key={i} className="note" style={{ backgroundColor: randomColor }}>
+                                    <div className="note-content">
+                                        <h1>{note.title}</h1>
+                                        <p>{note.body}</p>
+                                        <div className="group">
+
+                                            <Link className="neu-link" to={`/edit/${note._id}`}>Edit</Link>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            )
+                        })
+                    }
+                </div>
             </div>
-
-            <div>
-                <button className="btn btn-outline-primary" ><Link to='/'>Go back home</Link></button>
-
-            </div>
-
-            {
-                noteList.map((note, i) => {
-                    return (
-                        <div key={i}>
-                            <h1>{note.title}</h1>
-                            <p>{note.body}</p>
-                        </div>
-                    )
-                })
-            }
-
         </div>
     )
 }
