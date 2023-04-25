@@ -1,4 +1,5 @@
-A simple anonymous note wall
+A simple anonymous note wall.
+
 This is my first deployed project! 
 
 Standard CRUD app in react, notable features include:
