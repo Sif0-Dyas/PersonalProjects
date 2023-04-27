@@ -6,4 +6,7 @@ Standard CRUD app in react, notable features include:
   random colors from within a pallete for the notes upon page load,
   random note selector.
   
+  go here and leave a note!
+  http://35.86.114.241/
   Please keep notes polite, and friendly.😁
+
