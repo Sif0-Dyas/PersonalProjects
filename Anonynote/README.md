@@ -10,4 +10,6 @@ Standard CRUD app in react, notable features include:
   http://35.86.114.241/
   Please keep notes polite, and friendly.😁
 
-https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzNmMWFkZjQxODM5ZDRjYTMwZWI5MzJkNzBjNjc0ODM3MjNhNTI5YyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/eGvbJ68OwFVsppcbGK/giphy.gif
+
+![demo gif](ttps://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzNmMWFkZjQxODM5ZDRjYTMwZWI5MzJkNzBjNjc0ODM3MjNhNTI5YyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/eGvbJ68OwFVsppcbGK/giphy.gif)
+
