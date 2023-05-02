@@ -35,7 +35,7 @@ const NoteWall = () => {
 
 
     return (
-        <div className="note-wall-container">
+        <div className="note-wall-wrapper">
             <div className="custom-container">
                 <div className="header-container">
                     <div>
@@ -57,9 +57,9 @@ const NoteWall = () => {
                             const randomColor = `hsl(${Math.random() * 360}, 100%, 90%)`;
 
                             return (
-                                <div key={i} className="note" style={{ backgroundColor: randomColor }}>
+                                <div key={i} className="note m-3" style={{ backgroundColor: randomColor }}>
                                     <div className="note-content">
-                                        <h1>{note.title}</h1>
+                                        <h1 className="note-title">{note.title}</h1>
                                         <p>{note.body}</p>
                                         <div className="group">
 
