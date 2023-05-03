@@ -8,7 +8,7 @@ import axios from 'axios'
 const Random = () => {
 
     const [noteList, setNoteList] = useState([])
-    const [loaded] = useState(false)
+    const [loaded, setLoaded] = useState(false)
 
 
     useEffect(() => {
@@ -20,10 +20,13 @@ const Random = () => {
             .catch((error) => { console.log("This is an error", error) })
     }, [loaded])
 
-
+    function handleReloadClick(event) {
+        event.preventDefault();
+        setLoaded(!loaded);
+    }
 
     return (
-        <div className="note-wall-container">
+        <div className="note-wall-wrapper">
             <div className="custom-container">
                 <div className="header-container">
                     <div>
@@ -33,6 +36,8 @@ const Random = () => {
                     <div className="write-note-btn-container">
 
                         <Link className="neu-link" to="/">Go back home</Link>
+
+
 
                     </div>
                 </div>
@@ -57,6 +62,12 @@ const Random = () => {
                             )
                         })
                     }
+                </div>
+
+                <div className="random-note-btn-container">
+
+                    <Link className="neu-link" to={`/random`} onClick={handleReloadClick}>Random Note</Link>
+
                 </div>
             </div>
         </div>
