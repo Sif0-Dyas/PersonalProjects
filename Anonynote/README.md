@@ -1,4 +1,4 @@
-A simple anonymous note wall.
+A simple anonymous note wall optimized for both mobile and dektop view
 
 This is my first deployed project! 
 
